@@ -266,6 +266,22 @@
     },
     "shofy_product_variants": {
       "type": "shofy-product-variants",
+      "blocks": {
+        "b1418877-329e-45e7-a259-0a76ced553c6": {
+          "type": "product-variants",
+          "settings": {
+            "title": "Discount Products",
+            "product_list": [
+              "floral-white-top",
+              "galaxy-earrings",
+              "gemstone"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "b1418877-329e-45e7-a259-0a76ced553c6"
+      ],
       "settings": {
       }
     },
