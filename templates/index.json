@@ -1,43 +1,139 @@
 {
   "sections": {
     "shofy_slider": {
-      "type": "shofy-slider"
+      "type": "shofy-slider",
+      "blocks": {
+        "31d09db9-62db-4fbd-a930-4d31e19c3177": {
+          "type": "slider",
+          "settings": {
+            "price_range": "Starting at $233.00",
+            "slider_title": "The best tablet Collection 2023",
+            "sub_title": "Exclusive offer",
+            "sub_title_two": "Off this week",
+            "btn_text": "Shop Now",
+            "button_url": ""
+          }
+        },
+        "cdc6e914-dcbc-435c-b14a-229ff0480548": {
+          "type": "slider",
+          "settings": {
+            "price_range": "Starting at $233.00",
+            "slider_title": "The best tablet Collection 2023",
+            "sub_title": "Exclusive offer",
+            "sub_title_two": "Off this week",
+            "btn_text": "Shop Now",
+            "button_url": ""
+          }
+        },
+        "e602a7f5-4179-475d-8ac7-7b9a54639752": {
+          "type": "slider",
+          "settings": {
+            "price_range": "Starting at $233.00",
+            "slider_title": "The best tablet Collection 2023",
+            "sub_title": "Exclusive offer",
+            "sub_title_two": "Off this week",
+            "btn_text": "Shop Now",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "31d09db9-62db-4fbd-a930-4d31e19c3177",
+        "cdc6e914-dcbc-435c-b14a-229ff0480548",
+        "e602a7f5-4179-475d-8ac7-7b9a54639752"
+      ],
+      "settings": {
+      }
     },
     "shofy_category": {
-      "type": "shofy-category"
+      "type": "shofy-category",
+      "settings": {
+        "collection_list": [
+          "summer"
+        ]
+      }
     },
     "shofy_features": {
-      "type": "shofy-features"
+      "type": "shofy-features",
+      "settings": {
+      }
     },
     "shofy_tranding_products": {
-      "type": "shofy-tranding-products"
+      "type": "shofy-tranding-products",
+      "settings": {
+        "title": "Trending Products"
+      }
     },
     "shofy_banner": {
-      "type": "shofy-banner"
+      "type": "shofy-banner",
+      "settings": {
+        "sub_title": "Sale 20% off all store",
+        "title": "Smartphone BLU G91 Pro 2022",
+        "title_url": "",
+        "left_btn": "Show Now",
+        "left_btn_url": "",
+        "right_title": "HyperX Cloud II Wireless",
+        "right_title_url": "",
+        "banner_sub_title": "Sale 35% off",
+        "right_btn": "Show Now",
+        "right_btn_url": ""
+      }
     },
     "shofy_product_offer": {
-      "type": "shofy-product-offer"
+      "type": "shofy-product-offer",
+      "settings": {
+        "footer_linklist_title": "Deal of The Day",
+        "view_all": "View All Deals",
+        "button_link": ""
+      }
     },
     "shofy_category_product": {
-      "type": "shofy-category-product"
-    },
-    "shofy_product_banner": {
-      "type": "shofy-product-banner"
+      "type": "shofy-category-product",
+      "settings": {
+        "title": "Electronics Gadgets",
+        "menu": "",
+        "button_text": "More Product",
+        "button_link": "",
+        "collection": ""
+      }
     },
     "shofy_new_arrival": {
-      "type": "shofy-new-arrival"
+      "type": "shofy-new-arrival",
+      "settings": {
+        "product_list": [
+
+        ]
+      }
+    },
+    "shofy_product_banner": {
+      "type": "shofy-product-banner",
+      "settings": {
+      }
     },
     "shofy_product_variants": {
-      "type": "shofy-product-variants"
+      "type": "shofy-product-variants",
+      "settings": {
+      }
     },
     "shofy_blogs": {
-      "type": "shofy-blogs"
+      "type": "shofy-blogs",
+      "settings": {
+        "title": "Latest news & articles",
+        "btn_text": "View All Blog",
+        "btn_url": ""
+      }
     },
     "shofy_instagram": {
-      "type": "shofy-instagram"
+      "type": "shofy-instagram",
+      "settings": {
+      }
     },
     "shofy_subscribe": {
-      "type": "shofy-subscribe"
+      "type": "shofy-subscribe",
+      "settings": {
+        "sub_title": "SALE 20% OFF ALL STORE",
+        "title": "Subscribe our Newslette"
+      }
     }
   },
   "order": [
