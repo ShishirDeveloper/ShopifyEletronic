@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "shofy_slider": {
+      "type": "shofy-slider"
+    },
+    "shofy_category": {
+      "type": "shofy-category"
+    },
+    "shofy_features": {
+      "type": "shofy-features"
+    },
+    "shofy_tranding_products": {
+      "type": "shofy-tranding-products"
+    },
+    "shofy_banner": {
+      "type": "shofy-banner"
+    },
+    "shofy_product_offer": {
+      "type": "shofy-product-offer"
+    },
+    "shofy_category_product": {
+      "type": "shofy-category-product"
+    },
+    "shofy_product_banner": {
+      "type": "shofy-product-banner"
+    },
+    "shofy_new_arrival": {
+      "type": "shofy-new-arrival"
+    },
+    "shofy_product_variants": {
+      "type": "shofy-product-variants"
+    },
+    "shofy_blogs": {
+      "type": "shofy-blogs"
+    },
+    "shofy_instagram": {
+      "type": "shofy-instagram"
+    },
+    "shofy_subscribe": {
+      "type": "shofy-subscribe"
+    }
+  },
+  "order": [
+    "shofy_slider",
+    "shofy_category",
+    "shofy_features",
+    "shofy_tranding_products",
+    "shofy_banner",
+    "shofy_product_offer",
+    "shofy_category_product",
+    "shofy_new_arrival",
+    "shofy_product_banner",
+    "shofy_product_variants",
+    "shofy_blogs",
+    "shofy_instagram",
+    "shofy_subscribe"
+  ]
+}

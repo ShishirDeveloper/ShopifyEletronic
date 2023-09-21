@@ -1,0 +1,100 @@
+
+<div class="container">
+    <div class="row">
+        {% for item in section.blocks %}
+            {% assign product = item.settings %}
+            <div class="col-xl-4 col-md-6">
+                <div class="tp-product-sm-list mb-50">
+                <div class="tp-section-title-wrapper mb-40">
+                    <h3 class="tp-section-title tp-section-title-sm">Discount Products
+                        <svg width="64" height="20" viewBox="0 0 64 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M62 13.1107C1.91792 -5.41202 -3.10865 1.22305 5.00242 18.3636" stroke="currentColor" stroke-width="3" stroke-miterlimit="3.8637" stroke-linecap="round"/>
+                        </svg>                                 
+                    </h3>
+                </div>
+    
+                <div class="tp-product-sm-wrapper mr-20">
+                    {% for product in product.product_list %}
+
+                        <div class="tp-product-sm-item d-flex align-items-center">
+                            <div class="tp-product-thumb mr-25 fix">
+                                <a href="{{ product.url }}">
+                                <img src="{{ product.featured_image | img_url: '150x' }}" alt="">
+                                </a>
+                            </div>
+                            <div class="tp-product-sm-content">
+                                <div class="tp-product-category">
+                                <a href="shop.html">{{ product.tags }}</a>
+                                </div>
+                                <h3 class="tp-product-title">
+                                <a href="{{ product.url }}">
+                                   {{ product.title }}
+                                </a>
+                                </h3>
+                                <div class="tp-product-rating d-sm-flex align-items-center">
+                                <div class="tp-product-rating-icon">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                                <div class="tp-product-rating-text">
+                                    <span>(4 Review)</span>
+                                </div>
+                                </div>
+                                <div class="tp-product-price-wrapper">
+                                <span class="tp-product-price">{{ product.price | money }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+
+                </div>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+ {% schema %}
+    {
+       "name": "Shofy Proudct Variants",
+       "class": "tp-product-sm-area",
+       "tag": "section",
+       "settings": [
+
+       ],
+       "blocks": [
+          {
+             "name": "Product variants",
+             "type": "product-variants",
+             "limit": 3,
+             "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Product Offer",
+                    "default": "Discount Products"
+                },
+                {
+                    "type": "product_list",
+                    "id": "product_list",
+                    "label": "Products",
+                    "limit": 3
+                }
+             ]
+          }
+       ],
+       "presets": [
+          {
+             "name": "Shofy Prouduct Variants",
+             "blocks": [
+
+             ]
+          }
+       ]
+    }
+ {% endschema %}

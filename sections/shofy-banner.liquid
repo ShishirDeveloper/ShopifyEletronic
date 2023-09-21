@@ -1,0 +1,153 @@
+{% liquid
+    assign s = section.settings 
+    assign sub_title = s.sub_title
+    assign title = s.title
+    assign title_url = s.title_url
+    assign banner_img = s.banner_img | img_url: 'master'
+    assign left_btn = s.left_btn
+    assign left_btn_url = s.left_btn_url
+
+    assign right_title = s.right_title
+    assign right_title_url = s.right_title_url
+    assign banner_sub_title = s.banner_sub_title
+    assign right_btn = s.right_btn
+    assign right_btn_url = s.right_btn_url
+%}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-8 col-lg-7">
+            <div class="tp-banner-item tp-banner-height p-relative mb-30 z-index-1 fix">
+            <div class="tp-banner-thumb include-bg transition-3" data-background="{{ banner_img  }}"></div>
+            <div class="tp-banner-content">
+                <span>{{ sub_title }}</span>
+                <h3 class="tp-banner-title">
+                    <a href="{{ title_url }}">{{title}}</a>
+                </h3>
+                <div class="tp-banner-btn">
+                    <a href="{{ left_btn_url }}" class="tp-link-btn">{{ left_btn }} 
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.9998 6.19656L1 6.19656" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.75674 0.975394L14 6.19613L8.75674 11.4177" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-5">
+            <div class="tp-banner-item tp-banner-item-sm tp-banner-height p-relative mb-30 z-index-1 fix">
+            <div class="tp-banner-thumb include-bg transition-3" data-background="assets/img/product/banner/product-banner-2.jpg"></div>
+            <div class="tp-banner-content">
+                <h3 class="tp-banner-title">
+                    <a href="{{ right_title_url }}">{{ right_title }}</a>
+                </h3>
+                <p>{{ banner_sub_title }}</p>
+                <div class="tp-banner-btn">
+                    <a href="{{ right_btn_url }}" class="tp-link-btn">{{ right_btn }} 
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.9998 6.19656L1 6.19656" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.75674 0.975394L14 6.19613L8.75674 11.4177" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+ 
+{% schema %}
+{
+    "name": "Shofy Banner",
+    "class": "tp-banner-area pb-70",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content" : "Banner Left"
+        },
+        {
+            "type": "text",
+            "id": "sub_title",
+            "label": "Title",
+            "default": "Sale 20% off all store"
+        },
+        {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title",
+            "default": "Smartphone BLU G91 Pro 2022"
+        },
+        {
+            "type": "url",
+            "id": "title_url",
+            "label": "Title Url"
+        },
+        {
+            "type": "image_picker",
+            "id": "banner_img",
+            "label": "background Image"
+        },
+        {
+            "type": "text",
+            "id": "left_btn",
+            "label": "Left Button",
+            "default": "Show Now"
+        },
+        {
+            "type": "url",
+            "id": "left_btn_url",
+            "label": "Left Button Url"
+        },
+
+
+
+        {
+            "type": "header",
+            "content" : "Banner Right"
+        },
+        {
+            "type": "textarea",
+            "id": "right_title",
+            "label": "Right Banner Title",
+            "default": "HyperX Cloud II Wireless"
+        },
+        {
+            "type": "url",
+            "id": "right_title_url",
+            "label": "Right Banner Url"
+        },
+        {
+            "type": "text",
+            "id": "banner_sub_title",
+            "label": "Right Banner Sub title",
+            "default": "Sale 35% off"
+        },
+        {
+            "type": "text",
+            "id": "right_btn",
+            "label": "Right Button",
+            "default": "Show Now"
+        },
+        {
+            "type": "url",
+            "id": "right_btn_url",
+            "label": "Right Button Url"
+        }
+           
+    ],
+    "presets": [
+        {
+            "name": "Shofy Banner",
+            "blocks": [
+
+            ]
+        }
+    ]
+}
+{% endschema %}
