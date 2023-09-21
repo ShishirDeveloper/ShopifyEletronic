@@ -326,6 +326,17 @@
     },
     "shofy_instagram": {
       "type": "shofy-instagram",
+      "blocks": {
+        "b2403c55-f068-4235-8068-e3b39af3583a": {
+          "type": "instagram",
+          "settings": {
+            "instagram_img": "shopify:\/\/shop_images\/instagram-1.webp"
+          }
+        }
+      },
+      "block_order": [
+        "b2403c55-f068-4235-8068-e3b39af3583a"
+      ],
       "settings": {
       }
     },
