@@ -131,6 +131,7 @@
         "sub_title": "Sale 20% off all store",
         "title": "Smartphone BLU G91 Pro 2022",
         "title_url": "",
+        "banner_img": "shopify:\/\/shop_images\/instagram-1.webp",
         "left_btn": "Show Now",
         "left_btn_url": "",
         "right_title": "HyperX Cloud II Wireless",
@@ -142,6 +143,31 @@
     },
     "shofy_product_offer": {
       "type": "shofy-product-offer",
+      "blocks": {
+        "a258f929-ca11-4169-a45e-a84e9b7e64b5": {
+          "type": "tranding-product",
+          "settings": {
+            "product": "dark-denim-top"
+          }
+        },
+        "9f1b96c6-9a9b-4d9d-b7ba-445b0958610e": {
+          "type": "tranding-product",
+          "settings": {
+            "product": "black-leather-bag"
+          }
+        },
+        "e262f4d4-e166-4b97-ba5c-524b7566edf3": {
+          "type": "tranding-product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "a258f929-ca11-4169-a45e-a84e9b7e64b5",
+        "9f1b96c6-9a9b-4d9d-b7ba-445b0958610e",
+        "e262f4d4-e166-4b97-ba5c-524b7566edf3"
+      ],
       "settings": {
         "footer_linklist_title": "Deal of The Day",
         "view_all": "View All Deals",
