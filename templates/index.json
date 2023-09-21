@@ -355,10 +355,37 @@
           "settings": {
             "instagram_img": "shopify:\/\/shop_images\/instagram-1.webp"
           }
+        },
+        "cec4fab7-45d5-4281-befa-84cc70745cbb": {
+          "type": "instagram",
+          "settings": {
+            "instagram_img": "shopify:\/\/shop_images\/young-man-in-bright-fashion_925x_6c3d48b9-c738-40cf-92e5-b0acf72d926a.jpg"
+          }
+        },
+        "872c785c-a57a-434a-aa64-47d03d535d27": {
+          "type": "instagram",
+          "settings": {
+            "instagram_img": "shopify:\/\/shop_images\/casual-fashion-woman_925x_d3597cb1-1866-48a7-8c12-fccf13e3d21a.jpg"
+          }
+        },
+        "982341d4-dc89-4b01-91a8-18a291419907": {
+          "type": "instagram",
+          "settings": {
+            "instagram_img": "shopify:\/\/shop_images\/autumn-photographer-taking-picture_925x_ce44f38e-5e17-4125-9f5e-196bd50ef666.jpg"
+          }
+        },
+        "a8ac4276-4b61-4e0f-9d62-60a703035e07": {
+          "type": "instagram",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "b2403c55-f068-4235-8068-e3b39af3583a"
+        "b2403c55-f068-4235-8068-e3b39af3583a",
+        "cec4fab7-45d5-4281-befa-84cc70745cbb",
+        "872c785c-a57a-434a-aa64-47d03d535d27",
+        "982341d4-dc89-4b01-91a8-18a291419907",
+        "a8ac4276-4b61-4e0f-9d62-60a703035e07"
       ],
       "settings": {
       }
