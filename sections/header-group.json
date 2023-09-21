@@ -5,18 +5,12 @@
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "background-1",
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "menu": "header-menu",
+        "shippidng": "FREE Express Shipping On Orders $570+",
+        "hotline": "Hotline:",
+        "number": "+(402) 763 282 46",
+        "phone_url": "",
+        "slide_menu": "header-menu"
       }
     }
   },
