@@ -140,14 +140,35 @@
               "menu_title": "My Account",
               "menu": "footer"
             }
+          },
+          "5f5a9d77-ba8d-472a-aff9-5ecde70fe3ec": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "My Account",
+              "menu": "footer"
+            }
+          },
+          "976df9b6-7b56-4d27-859b-d976cc50adff": {
+            "type": "content",
+            "settings": {
+              "footer_info": "Talk To Us",
+              "footer_info_sub_text": "Got Questions? Call us",
+              "footer_info_num": "+670 413 90 762",
+              "footer_info_email": "shofy@support.com",
+              "footer_location": "79 Sleepy Hollow St. <br> Jamaica, New York 1432",
+              "map": "https:\/\/www.google.com\/maps\/place\/Sleepy+Hollow+Rd,+Gouverneur,+NY+13642,+USA\/@44.3304966,-75.4552367,17z\/data=!3m1!4b1!4m6!3m5!1s0x4cccddac8972c5eb:0x56286024afff537a!8m2!3d44.3304928!4d-75.453048!16s%2Fg%2F1tdsjdj4"
+            }
           }
         },
         "block_order": [
           "bad4276a-02a6-4c9f-a0bd-779af7dccff6",
-          "dce909d7-718e-42d2-a03c-c67c48e3017a"
+          "dce909d7-718e-42d2-a03c-c67c48e3017a",
+          "5f5a9d77-ba8d-472a-aff9-5ecde70fe3ec",
+          "976df9b6-7b56-4d27-859b-d976cc50adff"
         ],
         "settings": {
-          "footer_bottom": ""
+          "footer_bottom": "",
+          "payment": "shopify:\/\/shop_images\/footer-pay-2.png"
         }
       }
     },
