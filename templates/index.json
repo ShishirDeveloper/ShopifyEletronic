@@ -176,19 +176,73 @@
     },
     "shofy_category_product": {
       "type": "shofy-category-product",
+      "blocks": {
+        "ef474a3b-2861-4a71-9065-c69fa04779e5": {
+          "type": "tranding-product",
+          "settings": {
+            "only_price": "Only $99.00",
+            "title": "Selected novelty Products"
+          }
+        },
+        "d657a3d4-7671-4de4-8f22-975cf24fecc1": {
+          "type": "tranding-product",
+          "settings": {
+            "only_price": "Only $99.00",
+            "title": "Selected novelty Products"
+          }
+        }
+      },
+      "block_order": [
+        "ef474a3b-2861-4a71-9065-c69fa04779e5",
+        "d657a3d4-7671-4de4-8f22-975cf24fecc1"
+      ],
       "settings": {
         "title": "Electronics Gadgets",
         "menu": "",
         "button_text": "More Product",
         "button_link": "",
-        "collection": ""
+        "collection": "winter"
       }
     },
     "shofy_new_arrival": {
       "type": "shofy-new-arrival",
+      "blocks": {
+        "a6a10166-ee77-4555-889b-2cff91f091e8": {
+          "type": "arivals-product",
+          "settings": {
+            "button_title": "Shop Noww",
+            "btn_url": "",
+            "product": "choker-with-bead"
+          }
+        },
+        "7c0c48fa-1b6d-49af-824e-1b9470d721a4": {
+          "type": "arivals-product",
+          "settings": {
+            "button_title": "Shop Noww",
+            "btn_url": "",
+            "product": "chain-bracelet"
+          }
+        },
+        "18be02b0-d198-4f11-98d7-32e9375d02d8": {
+          "type": "arivals-product",
+          "settings": {
+            "button_title": "Shop Noww",
+            "btn_url": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "a6a10166-ee77-4555-889b-2cff91f091e8",
+        "7c0c48fa-1b6d-49af-824e-1b9470d721a4",
+        "18be02b0-d198-4f11-98d7-32e9375d02d8"
+      ],
       "settings": {
         "product_list": [
-
+          "bangle-bracelet",
+          "black-leather-bag",
+          "blue-silk-tuxedo",
+          "bangle-bracelet-with-feathers"
         ]
       }
     },
