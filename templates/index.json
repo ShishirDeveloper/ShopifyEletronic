@@ -49,12 +49,53 @@
       "type": "shofy-category",
       "settings": {
         "collection_list": [
-          "summer"
+          "summer",
+          "winter"
         ]
       }
     },
     "shofy_features": {
       "type": "shofy-features",
+      "blocks": {
+        "44ae7205-0f83-4a73-b2ce-eff4b3db3ec8": {
+          "type": "features",
+          "settings": {
+            "features_icon": "The best tablet Collection 2023",
+            "title": "Free Delivary",
+            "sub_title": "Orders from all item"
+          }
+        },
+        "0f1a54cf-811c-4615-bfb1-fc1c9b75bf68": {
+          "type": "features",
+          "settings": {
+            "features_icon": "The best tablet Collection 2023",
+            "title": "Free Delivary",
+            "sub_title": "Orders from all item"
+          }
+        },
+        "531a8556-3d76-4525-8413-f5dc7c478a69": {
+          "type": "features",
+          "settings": {
+            "features_icon": "The best tablet Collection 2023",
+            "title": "Free Delivary",
+            "sub_title": "Orders from all item"
+          }
+        },
+        "f83e0e8b-41c9-4dbf-ab8c-2252717863d6": {
+          "type": "features",
+          "settings": {
+            "features_icon": "The best tablet Collection 2023",
+            "title": "Free Delivary",
+            "sub_title": "Orders from all item"
+          }
+        }
+      },
+      "block_order": [
+        "44ae7205-0f83-4a73-b2ce-eff4b3db3ec8",
+        "0f1a54cf-811c-4615-bfb1-fc1c9b75bf68",
+        "531a8556-3d76-4525-8413-f5dc7c478a69",
+        "f83e0e8b-41c9-4dbf-ab8c-2252717863d6"
+      ],
       "settings": {
       }
     },
