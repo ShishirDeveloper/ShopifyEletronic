@@ -287,6 +287,37 @@
     },
     "shofy_blogs": {
       "type": "shofy-blogs",
+      "blocks": {
+        "2ebb388f-ba0e-415e-9bff-16ec27a13d47": {
+          "type": "blogs",
+          "settings": {
+            "article": "news\/fast-fashion-how-clothes-are-linked-to-climate-change",
+            "blog_url": "Read More",
+            "blog_text": "The world is an amazing place providing an incredible assortment of interesting locations across."
+          }
+        },
+        "0d7a0f6a-0b7d-4126-8aad-458a91761d68": {
+          "type": "blogs",
+          "settings": {
+            "article": "news\/the-sound-of-fashion-malcolm-mclaren-words",
+            "blog_url": "Read More",
+            "blog_text": "The world is an amazing place providing an incredible assortment of interesting locations across."
+          }
+        },
+        "f59c6281-51f9-4a81-b53c-f7b01f761e6f": {
+          "type": "blogs",
+          "settings": {
+            "article": "news\/the-boomerang-employees-returning-after-quitting",
+            "blog_url": "Read More",
+            "blog_text": "The world is an amazing place providing an incredible assortment of interesting locations across."
+          }
+        }
+      },
+      "block_order": [
+        "2ebb388f-ba0e-415e-9bff-16ec27a13d47",
+        "0d7a0f6a-0b7d-4126-8aad-458a91761d68",
+        "f59c6281-51f9-4a81-b53c-f7b01f761e6f"
+      ],
       "settings": {
         "title": "Latest news & articles",
         "btn_text": "View All Blog",
