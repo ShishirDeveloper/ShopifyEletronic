@@ -248,6 +248,19 @@
     },
     "shofy_product_banner": {
       "type": "shofy-product-banner",
+      "blocks": {
+        "eedddbbd-077a-415a-870e-e769ec522194": {
+          "type": "product-banner",
+          "settings": {
+            "button_title": "Shop Noww",
+            "btn_url": "",
+            "product": "chequered-red-shirt"
+          }
+        }
+      },
+      "block_order": [
+        "eedddbbd-077a-415a-870e-e769ec522194"
+      ],
       "settings": {
       }
     },
