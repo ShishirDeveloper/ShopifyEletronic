@@ -277,10 +277,34 @@
               "gemstone"
             ]
           }
+        },
+        "dbcf46ba-762f-4f9a-bc8c-15cada7711f9": {
+          "type": "product-variants",
+          "settings": {
+            "title": "Discount Products",
+            "product_list": [
+              "dainty-gold-neclace",
+              "classic-varsity-top",
+              "choker-with-triangle"
+            ]
+          }
+        },
+        "d2e64f2d-ba32-4712-ae35-03205fc105cb": {
+          "type": "product-variants",
+          "settings": {
+            "title": "Discount Products",
+            "product_list": [
+              "dainty-gold-neclace",
+              "classic-varsity-top",
+              "classic-leather-jacket"
+            ]
+          }
         }
       },
       "block_order": [
-        "b1418877-329e-45e7-a259-0a76ced553c6"
+        "b1418877-329e-45e7-a259-0a76ced553c6",
+        "dbcf46ba-762f-4f9a-bc8c-15cada7711f9",
+        "d2e64f2d-ba32-4712-ae35-03205fc105cb"
       ],
       "settings": {
       }
