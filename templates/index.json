@@ -101,6 +101,26 @@
     },
     "shofy_tranding_products": {
       "type": "shofy-tranding-products",
+      "blocks": {
+        "156c2b70-d6e4-4ff5-b153-b3882a5eee44": {
+          "type": "tranding-product",
+          "settings": {
+            "collection_title": "Old",
+            "collection": "summer"
+          }
+        },
+        "421ed13d-8b9c-401c-8181-b46d34a5dcc3": {
+          "type": "tranding-product",
+          "settings": {
+            "collection_title": "New",
+            "collection": "winter"
+          }
+        }
+      },
+      "block_order": [
+        "156c2b70-d6e4-4ff5-b153-b3882a5eee44",
+        "421ed13d-8b9c-401c-8181-b46d34a5dcc3"
+      ],
       "settings": {
         "title": "Trending Products"
       }
